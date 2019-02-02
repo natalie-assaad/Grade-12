@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="238.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotPotato.hotPotatoController">
+   <children>
+      <Text layoutX="60.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions">
+         <font>
+            <Font size="36.0" />
+         </font></Text>
+      <TextArea editable="false" layoutX="14.0" layoutY="57.0" prefHeight="131.0" prefWidth="292.0" text="Players arrange themselves in a circle and toss a small, round object (a tennis ball, an orange, or even a real potato will suffice) to each other while music plays. The player who is holding the “hot potato” when the music stops is out. The game continues until one player is left — that player is the winner." wrapText="true" />
+      <Button fx:id="instructButton" layoutX="142.0" layoutY="197.0" mnemonicParsing="false" text="OK" onAction="#closeWindowButtonClickHandler"/>
+   </children>
+</Pane>

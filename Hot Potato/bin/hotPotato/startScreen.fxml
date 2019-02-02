@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotPotato.hotPotatoController">
+   <children>
+      <Text layoutX="178.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To">
+         <font>
+            <Font name="Tamil MN" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="201.0" layoutY="359.0" mnemonicParsing="false" onAction="#buttonClickHandler" text="Instructions" />
+      <Button layoutX="414.0" layoutY="344.0" mnemonicParsing="false" onAction="#buttonClickHandler" prefHeight="42.0" prefWidth="65.0" text="PLAY" />
+      <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#buttonClickHandler" text="Quit" />
+      <ImageView fitHeight="224.0" fitWidth="295.0" layoutX="99.0" layoutY="126.0">
+         <image>
+            <Image url="@../../tater.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="200.0" layoutX="110.0" layoutY="35.0" opacity="0.5" rotate="-13.0">
+         <image>
+            <Image url="@../../steamy.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="16.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOT POTATO">
+         <font>
+            <Font name="Tamil MN" size="71.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.TicTacToeController">
+   <children>
+      <TextArea editable="false" prefHeight="299.0" prefWidth="600.0" stylesheets="@application.css" text="Welcome to Tic Tac Toe!&#10;&#10;The goal of Tic Tac Toe is to be the first player to get three symbols in a row.  &#10;The game is played on a three by three grid game board, &#10;     with the first player being known as &quot;X&quot; and the second player being known as &quot;O&quot;.  &#10;The two players take turns placing their symbol on a section of the grid until either of them &#10;have three symbols in a row.  These rows can be either horizontal, vertical, or diagonal.  &#10;In the event that no one manages to get three of their symbol in a row, &#10;     the game ends in a draw.  &quot;X&quot; always goes first.  &#10;Good luck and may the best player win!" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="howToButton" layoutX="84.0" layoutY="220.0" mnemonicParsing="false" onAction="#closeWindowButtonClickHandler" prefHeight="50.0" prefWidth="432.0" stylesheets="@application.css" text="OK" />
+   </children>
+</Pane>

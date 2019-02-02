@@ -1,0 +1,58 @@
+/* JavaFX CSS - Makes game visually appealing */
+
+.root { /* background design */
+	-fx-background-color: #d2b48c;
+}
+
+.button { /* button design */
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 2.5em;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover { /* button design when mouse hovers over it */
+	-fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+        -fx-cursor: hand;
+}
+
+.button:pressed { /* button design when pressed */
+	-fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.button:text { /* button text design */
+	-fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+.winning-button { /* winning buttons design */
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #e6c34d 0%, #998600 100%),
+        #e2c045,
+        #e6c75d,
+        radial-gradient(center 50% 50%, radius 100%, #f9f2d6, #FFD700);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 2.5em;
+    -fx-text-fill: #000000;    
+}
+
+.menu-item:focused, .menu-bar, .menu-bar > .container > .menu-button  { /* menu bar design */
+	-fx-background-color: #d2b48c;
+}
