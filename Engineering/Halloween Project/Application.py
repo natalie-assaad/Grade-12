@@ -1,3 +1,4 @@
+# done in collaboration with Zainab Fathi
 # import required
 import RPi.GPIO as GPIO
 import os
